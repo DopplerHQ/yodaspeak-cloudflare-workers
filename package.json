@@ -1,0 +1,17 @@
+{
+  "private": true,
+  "name": "yodaspeak-cloudflare-workers",
+  "version": "1.0.0",
+  "description": "A template for kick starting a Cloudflare Workers project",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "format": "prettier --write '**/*.{js,css,json,md}'",
+    "sync-secrets": "./bin/secrets-sync.sh"
+  },
+  "author": "Ryan Blunden <ryan.blunden@doppler.com>",
+  "license": "MIT",
+  "devDependencies": {
+    "prettier": "^1.18.2"
+  }
+}

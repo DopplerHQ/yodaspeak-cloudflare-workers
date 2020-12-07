@@ -1,0 +1,6 @@
+name = "yodaspeak-cloudflare-workers"
+type = "javascript"
+account_id = "8783bac9165c12a204d6039f3234adc7"
+workers_dev = true
+route = ""
+zone_id = "547ed6b7a54d504def3331f636542266"
